@@ -4,7 +4,7 @@ LOMAN is a responsive, single-page website for a smart-eyewear design concept. I
 
 The page uses real HTML text, custom CSS, and three AI-generated transparent PNG renders of one eyewear concept. It is built with plain HTML, CSS, and JavaScript, so there is no framework, package install, or build step. The images are illustrative concept art, not manufacturing-accurate product renders or evidence of available product features.
 
-**Live website:** [suryaupadev.github.io/Loman](https://suryaupadev.github.io/Loman/)
+**Live website:** [GitHub Pages deployment](https://suryaupadev.github.io/Loman/) · Vercel URL: use the domain assigned in the Vercel project dashboard.
 
 **Public source code:** [github.com/suryaupadev/Loman](https://github.com/suryaupadev/Loman)
 
@@ -27,6 +27,7 @@ Open [http://localhost:4173](http://localhost:4173). You can also open `index.ht
 - **Accessible interaction:** Make the mobile menu keyboard-friendly, reflect its state with ARIA, and use the native `<dialog>` element for the film, product, and information panels.
 - **Honest product communication:** Present this as a design concept and avoid treating generated visuals or illustrative descriptions as verified product specifications.
 - **Static site deployment:** Publish a buildless website from GitHub with a GitHub Actions workflow and GitHub Pages.
+- **Vercel deployment:** Import the repository as a static site with the **Other** framework preset and the repository root as the root directory. The site is served directly from the repository root; `vercel.json` sets that output directory and enables clean URLs without requiring a build.
 
 ## Project files
 
@@ -43,8 +44,21 @@ Open [http://localhost:4173](http://localhost:4173). You can also open `index.ht
 | `assets/FONT-LICENSE.txt` | DM Sans license |
 | `design-reference.png` | Visual reference used while building the page |
 | `.github/workflows/pages.yml` | Publishes the static website to GitHub Pages when `main` changes |
+| `vercel.json` | Vercel static-site settings for serving the root project without a build step |
 
-## Deployment
+## Deploy on Vercel
+
+Import `suryaupadev/Loman` in Vercel and use these project settings:
+
+- **Framework preset:** Other
+- **Root directory:** `./`
+- **Build command:** leave empty
+- **Output directory:** `.`
+- **Install command:** leave empty
+
+Deploy the `main` branch. Vercel serves the root `index.html` with its CSS, JavaScript, and assets. The `vercel.json` file explicitly sets the root as the output directory and enables clean URLs. Add the assigned Vercel domain here once Vercel finishes the first deployment.
+
+## GitHub Pages deployment
 
 The included GitHub Actions workflow stages the website files and publishes them to GitHub Pages whenever code is pushed to `main`. GitHub Pages is configured to use the workflow. After the first successful deployment, the public URL follows this format: `https://suryaupadev.github.io/Loman/`.
 
