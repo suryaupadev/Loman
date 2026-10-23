@@ -1,0 +1,9 @@
+# Local browser captures and previews
+*-preview.png
+hero-*.png
+
+# Local development
+node_modules/
+.DS_Store
+Thumbs.db
+desktop.ini
