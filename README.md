@@ -4,6 +4,9 @@ LOMAN is a responsive, single-page website for a smart-eyewear design concept. I
 
 The page uses real HTML text, custom CSS, and three AI-generated transparent PNG renders of one eyewear concept. It is built with plain HTML, CSS, and JavaScript, so there is no framework, package install, or build step. The images are illustrative concept art, not manufacturing-accurate product renders or evidence of available product features.
 
+**Live website:** [suryaupadev.github.io/Loman](https://suryaupadev.github.io/Loman/)  
+**Public source code:** [github.com/suryaupadev/Loman](https://github.com/suryaupadev/Loman)
+
 ## Run it locally
 
 With Node.js installed, run:
