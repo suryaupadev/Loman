@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Loman mark</title>
+  <g fill="#303234">
+    <path d="M25 12 34 14v42L17 74l-8-3 16-19V12Z"/>
+    <path d="m45 17 9 2v39L34 77l-8-3 19-19V17Z"/>
+    <path d="M63 47h23v10H63z"/>
+    <path d="M53 68h33v10H53z"/>
+  </g>
+</svg>

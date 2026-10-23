@@ -2,7 +2,7 @@
 
 LOMAN is a responsive, single-page website for a smart-eyewear design concept. It turns a visual brief into a complete product story: an editorial hero, product overview, feature explanations, design details, a closing call to action, and a compact footer.
 
-The page uses real HTML text, custom CSS, and three AI-generated transparent PNG renders of one eyewear concept. It is built with plain HTML, CSS, and JavaScript, so there is no framework, package install, or build step. The images are illustrative concept art, not manufacturing-accurate product renders or evidence of available product features.
+The page uses real HTML text, custom CSS, a custom SVG brand mark, and three AI-generated transparent PNG renders of one eyewear concept. It is built with plain HTML, CSS, and JavaScript, so there is no framework, package install, or build step. The images are illustrative concept art, not manufacturing-accurate product renders or evidence of available product features.
 
 **Live website:** [GitHub Pages deployment](https://suryaupadev.github.io/Loman/) · [Vercel deployment](https://loman-nu.vercel.app/)
 
@@ -40,6 +40,7 @@ Open [http://localhost:4173](http://localhost:4173). You can also open `index.ht
 | `assets/loman-hero.png` | Transparent three-quarter product view, reused in the hero and closing section |
 | `assets/loman-side.png` | Transparent side view for the product and experience sections |
 | `assets/loman-front.png` | Transparent front view for the design section |
+| `assets/loman-mark.svg` | Custom vector Loman brand mark based on the supplied logo reference |
 | `assets/dm-sans-variable.ttf` | Locally hosted variable font |
 | `assets/FONT-LICENSE.txt` | DM Sans license |
 | `design-reference.png` | Visual reference used while building the page |

@@ -110,37 +110,11 @@ a:focus-visible {
   font-size: 21px;
 }
 .brand-mark {
-  position: relative;
   display: block;
-  width: 32px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
   flex: none;
-}
-.brand-mark i {
-  display: block;
-  position: absolute;
-  background: #111;
-}
-.brand-mark i:nth-child(1) {
-  width: 6px;
-  height: 25px;
-  left: 2px;
-  top: 0;
-  transform: skewY(12deg);
-}
-.brand-mark i:nth-child(2) {
-  width: 6px;
-  height: 29px;
-  left: 13px;
-  top: 0;
-  transform: skewY(-38deg);
-}
-.brand-mark i:nth-child(3) {
-  width: 21px;
-  height: 6px;
-  left: 10px;
-  bottom: 2px;
-  transform: rotate(12deg);
+  object-fit: contain;
 }
 .header nav {
   display: flex;
@@ -1000,9 +974,8 @@ dialog .button {
     gap: 10px;
   }
   .brand-mark {
-    transform: scale(0.82);
-    transform-origin: left center;
-    width: 27px;
+    width: 34px;
+    height: 34px;
   }
   .header nav,
   .header-cta {
